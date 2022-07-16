@@ -7,7 +7,7 @@
    1. run `chsh -s $(which fish)`
    2. log out and then log back in
    
-## Install starship
+## Install starship 🚀
 1. Download starship from https://starship.rs
 2. Replace default starship.toml (~/.config/starship.toml) with toml file from this repo
 
