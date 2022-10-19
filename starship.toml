@@ -1,12 +1,12 @@
 format = """
-[ ](#9A348E)\
+[ ](#e60b2c)\
 $username\
-[](bg:#b5044e fg:#9A348E)\
+[](bg:#b5044e fg:#e60b2c)\
 $directory\
-[](fg:#b5044e bg:#FA7946)\
+[](fg:#b5044e bg:#F5251D)\
 $git_branch\
 $git_status\
-[](fg:#FA7946 bg:#86BBD8)\
+[](fg:#F5251D bg:#86BBD8)\
 [](fg:#86BBD8 bg:#06969A)\
 $docker_context\
 [ ](fg:#06969A)\
@@ -18,17 +18,17 @@ $docker_context\
 # You can also replace your username with a neat symbol like  to save some space
 [username]
 show_always = true
-style_user = "bg:#9A348E"
-style_root = "bg:#9A348E"
+style_user = "bg:#e60b2c"
+style_root = "bg:#e60b2c"
 # format = '[ $user ]($style)'
-format = '[ aragorn🗡 ]($style)'
+format = '[  ]($style)'
 
 [directory]
 style = "bg:#b5044e"
 # style = "bg:#DA627D" #default
 
 format = "[ $path ]($style)"
-truncation_length = 3
+truncation_length = 2
 truncation_symbol = "…/"
 
 # Here is how you can shorten some long paths by text replacement
@@ -66,12 +66,12 @@ format = '[[ $symbol ($version) ](bg:#86BBD8)]($style)'
 
 [git_branch]
 symbol = ""
-style = "bg:##FA7946"
-format = '[[ $symbol $branch ](bg:#FA7946)]($style)'
+style = "bg:##F5251D"
+format = '[[ $symbol $branch ](bg:#F5251D)]($style)'
 
 [git_status]
-style = "bg:##FA7946"
-format = '[[($all_status$ahead_behind )](bg:#FA7946)]($style)'
+style = "bg:##F5251D"
+format = '[[($all_status$ahead_behind )](bg:#F5251D)]($style)'
 
 [golang]
 symbol = " "
