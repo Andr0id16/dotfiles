@@ -5,3 +5,4 @@ chsh -S $(which fish)
 curl -sS https://starship.rs/install.sh | sh
 sudo cp config.fish ~/.config/fish
 sudo cp starship.toml ~/.config
+echo "Installation successful..."
